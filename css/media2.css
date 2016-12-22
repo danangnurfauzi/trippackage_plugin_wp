@@ -1,0 +1,602 @@
+.containerpr1 {
+    clear: both;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.contentpr1 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.clearboth {
+	clear:both;
+}
+
+.faces {
+    float: left;
+    width: 47%;
+}
+
+.bands {
+    float: right;
+    width: 47%;
+}
+
+.bands2 {
+    float: left;
+    width: 47%;
+}
+
+
+
+.facesub{width: 100%;float: left;text-align:left;border-top:thin solid #000;padding: 2% 0% 4% 0%; }
+
+.facesub a{text-decoration: none;color: black;font-size: medium; font-weight: bold;}
+
+.facesub1{width: 100%;float: left;text-align:right;border-top:thin solid #000;padding: 2% 0% 4% 0%; }
+
+.facesub1 a{text-decoration: none;color: black;font-size: medium; font-weight: bold;}
+
+.facesHeading{width: 100%;height: auto;}
+
+.faceImg{width:30%;float: left;height: auto;padding: 0% 0% 2% 0%;}
+
+.faceImg img{width: 100%;}
+
+.faceHead {
+    color: #000;
+    float: left;
+    font-size: 15px;
+    font-weight: normal;
+    height: auto;
+    padding-bottom: 11px;
+    text-align: left;
+    width: 100%;
+}
+
+.faceHead1 {
+    width: 100%;
+    float: left;
+    color: #000;
+    font-size: 15px;
+    font-weight: normal;
+    height: auto;
+	padding-bottom: 11px;
+	text-align: right;
+}
+
+.facescontent{width: 100%;float: left}
+
+.faceMedia{width: 100%;float: left;paddimg-bottom:5%;}
+
+#page-1  img , #page-2  img , #page-3  img , #page-4  img {width: 70%;padding: 1% 0% 10% 0%;}
+
+#media-1 img , #media-2 img , #media-3 img , #media-4 img {width: 70%;padding: 1% 0% 10% 0%;}
+
+#page-1 td :hover , #page-2 td :hover , #page-3 td :hover , #page-4 td :hover  {cursor: pointer}
+
+#media-1 td :hover , #media-2 td :hover , #media-3 td :hover , #media-4 td :hover {cursor: pointer}
+
+#media-1 , #media-2 , #media-3 , #media-4 {display: none;}
+
+.customize {
+    background: transparent none repeat scroll 0% 0% / 100% 100%;
+    width: 40%;
+    height: 100%;
+    float: left;
+    min-height: 380px;
+	margin-left: 5%;
+}
+
+.outerpackgdiv {
+    float: right;
+    margin: 0;
+    padding: 0;
+    width: 40%;
+}
+
+.bandDiv {
+    float: left;
+    height: auto;
+    position: absolute;
+    top: 3%;
+    width: 40%;
+    z-index: 2;
+}
+
+.bandDiv2 {
+    float: left;
+    height: auto;
+    left: 0;
+    position: absolute;
+    top: 4%;
+    width: 40%;
+    z-index: 1;
+}
+
+.bandDiv3 {
+    float: left;
+    height: auto;
+    left: 17%;
+    position: absolute;
+    top: 4%;
+    width: 40%;
+    z-index: 1;
+}
+
+/*.bandDiv img , .faceDiv  > img{width: 100%;}*/
+
+.faceDiv {
+    height: auto;
+    position: absolute;
+    width: 40%;
+	top: 3%;
+	z-index: 1;
+}
+
+.faceDiv2 {
+    height: auto;
+    position: absolute;
+    width: 40%;
+	top: 3%;
+	z-index: 0;
+	left:0;
+}
+
+.faceDiv3 {
+    height: auto;
+    position: absolute;
+    width: 40%;
+	top: 3%;
+	z-index: 0;
+	left:17%;
+}
+
+.info {
+    width: 100%;
+    float: left;
+}
+
+#totalPrice {
+    color: #000;
+    font-size: large;
+    font-weight: bolder;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    text-align: center;
+}
+
+#band-price , #face-price{display: none;}
+
+.cartbnt {
+   border:none;
+   margin-left: 5%;
+   width: 83%;
+   background-color: #FFF;
+}
+
+
+
+#qty{margin: 0}
+#qty1 td {font-size: medium;}
+
+#newWatch {
+     background-color: #FFF;
+     font-weight: 900;
+     margin-top: 1%;
+	 border: none;
+}
+
+#qty1 {
+    border: 1px solid #aaa;
+    color: #000;
+    float: left;
+    font-size: medium;
+    margin: 1% 0 0 5%;
+    padding: 10px 8px;
+    position: relative;
+    width: 90%;
+}
+
+
+
+#qty2 td {
+    color: #000;
+    font-size: medium;
+}
+#qty2 {
+    width: 45%;
+}
+
+#page-2 , #page-4 , #media-2 , #media-4 {display: none}
+
+.addCart {
+    clear: both;
+    width: 100%;
+}
+
+.affix {
+    top:5%;
+    position:fixed;
+}
+.affix1 {
+    top:400px;
+    position:fixed;
+}
+
+.affixIE {
+    top:0px;
+    position:fixed;
+	width:30%;
+}
+.affix1IE {
+    top:400px;
+    position:fixed;
+	width:30%;
+}
+
+#page-3 , #page-4 {
+    text-align: right;
+}
+
+#loading {
+  display: none;
+  height: auto;
+  left: 41%;
+  position: absolute;
+  top: 20%;
+  width: 10%;
+  z-index: 1;
+}
+
+.affixLoad {
+    margin-top: 5% !important;
+    position: fixed !important;
+}
+
+.facesubMedia , .facesubMedia1 {display:none;}
+
+#overlay p , #overlay1 p , #overlay2 p ,  #overlay3 p{display: none;}
+
+
+/*media query*/
+
+@media only screen and (max-width:309px) and (min-width:230px)
+{
+     .faceHead , .faceHead1 {font-size: medium;padding-bottom: 4%;text-align: left;}
+	
+	 .facesub a , .facesub1 a{font-size: x-small;text-align: left;font-weight: bold;}
+	
+     .faces{width: 100%;}
+	
+	 .bands{width: 100%;}
+	
+	 .customize {display:none;}
+     
+     .customize1 {width: 100%;top: 40%;min-height: 500px;display: block;}
+	
+	.bandDiv {
+		left: 1%;
+		top: 0;
+		width: 100%;
+	}
+
+	.bandDiv2 {
+		left: -10%;
+		top: 0;
+		width: 100%;
+	}
+
+	.bandDiv3 {
+		left: 28%;
+		top: 0;
+		width: 100%;
+	}
+
+	.faceDiv {
+		left: 1%;
+		top: 0;
+		width: 100%;
+	}
+    
+	 .addCart {display:none;}
+     
+     .addCart1 {position: absolute;width: 100%;top: 35%;display: block;}
+     
+     #totalPrice {font-size: medium;}
+  
+	 #newWatch {width: 75%;}
+
+     .affix {position: absolute;}
+
+     .affix1 {}
+	
+	 .mini{top: 30%}
+
+     .mini1{top:51%;}
+	 
+	 #loading { width: 20%;}
+     
+    .facesub1 , .facesub{display:none;}
+    
+    .facesubMedia , .facesubMedia1 {display: block;}
+    
+     #overlay ,  #overlay1 ,  #overlay2 ,  #overlay3
+    {
+        background: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        overflow: scroll;
+        display: none;
+        z-index: 10000;
+    }
+  
+    #page-1 , #page-2 ,  #page-3 ,  #page-4
+    {
+        width: 70%;
+        height: 80%;
+        position: fixed;
+        top: 10%;
+        left: 15%;
+        padding: 3%;
+        overflow-y: scroll;
+        overflow-x:hidden;
+        border: solid 15px #a7a7a7;
+        background-color: #FFF;
+    }
+    #media-1 ,   #media-3 {display: block;}
+    
+    .overlayHide{display:none;}
+    
+    .overlayShow{display:block !important;}
+    
+    #overlay p, #overlay1 p, #overlay2 p, #overlay3 p {
+    display: block;
+    position: fixed;
+    right: 3%;
+    top: 0%;
+    margin: 0px;
+    padding: 2%;
+    color: #FFF;
+}
+     
+}
+
+@media only screen and (max-width:499px) and (min-width:310px)
+{
+	.faces {
+		float: none;
+		width: 100%;
+	}
+	
+    .bands {
+		float: none;
+		padding: 0 0 0;
+		width: 100%;
+	}
+
+	.bands2 {
+		float: none;
+		width: 100%;
+	}
+    
+    .customize {display: none;}
+    
+    .customize1 {width: 100%;top: 40%;min-height: 480px;display: block;}
+
+	.outerpackgdiv {
+		float: none;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+    .bandDiv {top: 0%;width: 100%;}
+    
+	.faceDiv { width: 100%; top: 0%;}
+
+	.bandDiv2 {
+		left: -4%;
+		top: 0;
+		width: 100%;
+	}
+
+	.bandDiv3 {
+		left: 32%;
+		top: 0;
+		width: 100%;
+	}
+
+	.faceDiv2 {
+		left: -4%;
+		top: 0;
+		width: 100%;
+	}
+
+	.faceDiv3 {
+		left: 32%;
+		top: 0;
+		width: 100%;
+	}
+	
+	.faceHead1 , .facesub1{text-align: left;}
+    
+	.addCart {display: none;}
+    
+    .addCart1 {position: relative;width: 100%;top: 30%;display: block;}
+    
+    .affix {position: absolute;}
+
+    .affix1 {}
+	
+	.bandDiv img, .faceDiv > img { width: auto;}
+	
+    .mini{top: 30%}
+
+    .mini1{top:51%;}
+	
+	#loading { width: 20%;}
+    
+    .facesub1 , .facesub{display:none;}
+    
+    .facesubMedia , .facesubMedia1 {display: block;}
+    
+  .facesubMedia > a ,   .facesubMedia1 > a{font-weight: bold;font-size: medium;}
+    
+    #overlay ,  #overlay1 ,  #overlay2 ,  #overlay3
+    {
+        background: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        overflow: scroll;
+        display: none;
+        z-index: 10000;
+    }
+    
+    #overlay p ,  #overlay1 p ,  #overlay2 p , #overlay3 p
+    {
+        display: block;
+        position: fixed;
+        right: 5%;
+        top: 1%;
+        margin: 0;
+        padding: 2%;
+        color: #FFF;
+    }
+    
+   
+    
+    #media-1 ,   #media-3 {display: block;}
+    
+    .overlayHide{display:none;}
+    
+    .overlayShow{display:block !important;}
+   
+    #media-1 td ,   #media-2 td ,   #media-3 td ,   #media-4 td {padding: 4% 0 0;}
+    
+    #media-1 td a > img , #media-2 td a > img , #media-3 td a > img , #media-4 td a > img{ width: 50%;}
+	
+}
+
+
+@media only screen and (max-width:888px) and (min-width:500px){
+	
+	.faceHead , .faceHead1{font-size: large;padding-bottom: 5%;}
+	
+    .facesubMedia a, .facesubMedia1 a {font-size: small;font-weight: bold;}
+    
+    .facesubMedia1 {text-align: right;}
+	
+	#buttonNext > button {font-size: small; padding: 0% 9% 0% 13%;}
+	
+	#buttonpre > button {font-size: small;padding: 1% 4%;}
+	
+	#totalPrice { font-size: medium;}
+	
+	.info {left: 3%;}
+	
+	.addCart {top: 65%;}
+	
+	.mini{top: 0%}
+
+    .mini1{top:60%;}
+	
+	#cart {font-size: x-small;}
+	
+	#newWatch {width: 75%;}
+	
+	#cart {margin-left: 0%; width: 100%;}
+    
+    .facesub1 , .facesub{display:none;}
+    
+    .facesubMedia , .facesubMedia1{display: block;}
+    
+     #media-1 td ,   #media-2 td ,   #media-3 td ,   #media-4 td {padding: 8% 0 0;}
+    
+    #media-1 img, #media-2 img, #media-3 img, #media-4 img {width: 100%;padding: 1% 0% 4%;}
+    
+     #overlay ,  #overlay1 ,  #overlay2 ,  #overlay3
+      {
+        background: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        overflow: scroll;
+        display: none;
+        z-index: 10000;
+      }
+    
+    #overlay p ,  #overlay1 p ,  #overlay2 p , #overlay3 p
+    {
+        display: block;
+        position: fixed;
+        right: 5%;
+        top: 1%;
+        margin: 0;
+        padding: 2%;
+        color: #FFF;
+    }
+    
+    
+       #media-1 ,   #media-3 {display: block;}
+    
+      .overlayHide{display:none;}
+    
+      .overlayShow{display:block !important;}
+    
+       .affix {position: absolute;}
+     
+      #media-1 td a > img , #media-2 td a > img , #media-3 td a > img , #media-4 td a > img{ width: 75%;}
+     
+}
+
+@media only screen and (max-width:1400px) and (min-width:1100px){
+
+.affix{width: 30% !important}
+.affix1{width: 30% !important}
+#loading {
+    display: none;
+    height: auto;
+    left: 43%;
+    position: absolute;
+    top: 10%;
+    width: 8%;
+    z-index: 1;
+}
+}
+
+@media only screen and (min-width:1401px){
+
+.affix{width: 25%}
+.affix1{width: 30% !important}
+#loading {
+    display: none;
+    height: auto;
+    left: 43%;
+    position: absolute;
+    top: 15%;
+    width: 10%;
+    z-index: 1;
+}
+.affixLoad {
+    margin-top: 0% !important;
+    position: fixed;
+    width: 8% !important;
+}
+}
+
+@media only screen and (max-width:1300px) and (min-width:1200px){
+	.addCart{width: 36%;}
+
+}
