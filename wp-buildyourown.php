@@ -75,8 +75,11 @@
 					  <?php 
 						$i=0;
                         foreach ( $obj_optionsf->posts as $obj_option ) :
+                        
+                        	$_product = wc_get_product( $obj_option->ID );
+                        
 						     $i++;	
-							echo '<option data-price-face1="20" value="' . $obj_option->ID . '">'.$obj_option->post_title.'</option>';
+							echo '<option data-price-face1="'.$_product->get_regular_price().'" value="' . $obj_option->ID . '">'.$obj_option->post_title.'</option>';
 						endforeach;
 						       
 						?>
@@ -113,8 +116,11 @@
 					  <?php 
 						$i=0;
                         foreach ( $obj_optionsb->posts as $obj_option ) :
+                        
+                        	$_product = wc_get_product( $obj_option->ID );
+                        	
 						     $i++;	
-							echo '<option id="pricekband1" data-price-band1="10" value="' . $obj_option->ID . '">'.$obj_option->post_title.'</option>';
+							echo '<option id="pricekband1" data-price-band1="'.$_product->get_regular_price().'" value="' . $obj_option->ID . '">'.$obj_option->post_title.'</option>';
 						endforeach;
 						       
 						?>
@@ -136,8 +142,11 @@
 					  <?php 
 						$i=0;
                         foreach ( $obj_optionsf->posts as $obj_option ) :
+                        	
+                        	$_product = wc_get_product( $obj_option->ID );
+                        	
 						     $i++;	
-							echo '<option data-price-face2="20" value="' . $obj_option->ID . '">'.$obj_option->post_title.'</option>';
+							echo '<option data-price-face2="'.$_product->get_regular_price().'" value="' . $obj_option->ID . '">'.$obj_option->post_title.'</option>';
 						endforeach;
 						       
 						?>
@@ -156,8 +165,11 @@
 					  <?php 
 						$i=0;
                         foreach ( $obj_optionsb->posts as $obj_option ) :
+                        	
+                        	$_product = wc_get_product( $obj_option->ID );
+                        	
 						     $i++;	
-							echo '<option data-price-band2="10" value="' . $obj_option->ID . '">'.$obj_option->post_title.'</option>';
+							echo '<option data-price-band2="'.$_product->get_regular_price().'" value="' . $obj_option->ID . '">'.$obj_option->post_title.'</option>';
 						endforeach;
 						       
 						?>
@@ -179,8 +191,11 @@
 					  <?php 
 						$i=0;
                         foreach ( $obj_optionsf->posts as $obj_option ) :
+                        	
+                        	$_product = wc_get_product( $obj_option->ID );
+                        	
 						     $i++;	
-							echo '<option data-price-face3="20" value="' . $obj_option->ID . '">'.$obj_option->post_title.'</option>';
+							echo '<option data-price-face3="'.$_product->get_regular_price().'" value="' . $obj_option->ID . '">'.$obj_option->post_title.'</option>';
 						endforeach;
 						       
 						?>
@@ -200,8 +215,11 @@
 					  <?php 
 						$i=0;
                         foreach ( $obj_optionsb->posts as $obj_option ) :
+                        	
+                        	$_product = wc_get_product( $obj_option->ID );
+                        	
 						     $i++;	
-							echo '<option data-price-band3="10" value="' . $obj_option->ID . '">'.$obj_option->post_title.'</option>';
+							echo '<option data-price-band3="'.$_product->get_regular_price().'" value="' . $obj_option->ID . '">'.$obj_option->post_title.'</option>';
 						endforeach;
 						       
 						?>
